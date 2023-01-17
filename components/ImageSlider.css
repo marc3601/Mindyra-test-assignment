@@ -1,0 +1,46 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 400px;
+}
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.image {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+.image-prev {
+  transform: translateX(-100%);
+}
+.image-active {
+  transform: translateX(0);
+}
+.image-next {
+  transform: translateX(100%);
+}
+img {
+  max-width: 100%;
+}
+.prev,
+.next {
+  position: absolute;
+  font-size: 5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.next {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
