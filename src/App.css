@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
+.title {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1rem 0;
 }

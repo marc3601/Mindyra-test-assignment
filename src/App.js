@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
-import dummy from "../data/dummy.json";
+import data from "../data/data.json";
 import ImageSlider from "../components/ImageSlider";
 const App = () => {
+  const count = data.length;
   return (
     <>
-      <h1>Slider</h1>
-      <ImageSlider images={dummy} />
+      <h1 className="title">{`${count} programmers`}</h1>
+      <ImageSlider images={data} />
     </>
   );
 };

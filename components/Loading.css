@@ -1,0 +1,14 @@
+.load_container {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(144, 144, 144);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading {
+  font-size: 2rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
